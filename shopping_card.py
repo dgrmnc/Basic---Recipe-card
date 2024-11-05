@@ -12,7 +12,7 @@ while True:
     else:
         price = float(input(f"Enter a price of the {food}: $"))
         if price < 0:
-            raise ValueError("Price can not be less than 0")
+            raise ValueError("Price cannot be less than 0")
         foods.append(food.capitalize())
         prices.append(price)
 
